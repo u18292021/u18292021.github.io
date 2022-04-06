@@ -1404,6 +1404,10 @@ progress {
   .col-lg-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+    border: 2px solid black;
+    border-radius: 25%;
+    padding : 25px;
+    background-color: lightslategray ;
   }
 
   .col-lg-9 {
@@ -7959,7 +7963,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: white !important;
 }
 
 .text-reset {
